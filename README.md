@@ -67,9 +67,23 @@ El patrón aparecerá automáticamente en la escena.
 
 ---
 
-## 🧠 Explicación del Código
+##  Explicación del Código
+<img width="625" height="96" alt="image" src="https://github.com/user-attachments/assets/1f35aab3-1eec-4ac7-9112-80dc0cdc3482" />
+radio: tamaño de cada círculo.
+angulo_actual: controla la posición angular.
+paso_angular: determina cada cuántos grados se crea un nuevo círculo
 
-### 🔹 Limpieza de la escena
+<img width="701" height="102" alt="image" src="https://github.com/user-attachments/assets/b9da5c68-81b0-43cc-af7c-3f9902d56850" />
+
+El ciclo se ejecuta hasta completar los 360°, formando un círculo completo.
+Evita escribir el mismo bloque de código múltiples veces.
+
+<img width="485" height="150" alt="image" src="https://github.com/user-attachments/assets/8536b212-afd0-43bb-93d2-082e70306be5" />
+
+Creacion automatica de los circulos
+
+
+###  Limpieza de la escena
 ```python
 bpy.ops.object.select_all(action='SELECT')
 bpy.ops.object.delete()
