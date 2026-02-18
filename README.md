@@ -27,6 +27,7 @@ El polígono aparecerá automáticamente en la escena.
 ```python
 import bpy
 import math
+```
 
 
 ## práctica: Generación de Patrón Circular en Blender con Python
