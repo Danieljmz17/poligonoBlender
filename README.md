@@ -27,3 +27,48 @@ El polígono aparecerá automáticamente en la escena.
 ```python
 import bpy
 import math
+
+
+## práctica: Generación de Patrón Circular en Blender con Python
+
+##  Descripción
+En esta práctica se desarrolla un script en Python dentro de Blender para generar automáticamente un patrón circular compuesto por múltiples círculos alrededor de un círculo central.
+
+Se usa una estructura de control `while` para evitar la repetición manual de código y mejorar la eficiencia del programa.
+
+---
+
+##  Objetivos
+
+- Automatizar la creación de figuras en Blender mediante scripting.
+- Aplicar conceptos matemáticos como seno y coseno.
+- Utilizar ciclos para generar patrones geométricos.
+
+---
+
+## Requisitos
+
+- Blender 3.x o superior  
+- Python básico  
+- Editor de scripting de Blender  
+
+---
+
+## Cómo ejecutar el script
+
+1. Abrir Blender.
+2. Ir a la pestaña **Scripting**.
+3. Crear un nuevo script.
+4. Copiar el código del archivo `script.py`.
+5. Ejecutar con **Run Script**.
+
+El patrón aparecerá automáticamente en la escena.
+
+---
+
+## 🧠 Explicación del Código
+
+### 🔹 Limpieza de la escena
+```python
+bpy.ops.object.select_all(action='SELECT')
+bpy.ops.object.delete()
